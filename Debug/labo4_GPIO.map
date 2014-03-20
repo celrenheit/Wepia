@@ -1,0 +1,741 @@
+Archive member included because of file (symbol)
+
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                              ./src/labo4_GPIO.o (memset)
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+                              ./src/uart.o (itoa)
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o) (__aeabi_lowlevel_memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+DisplayBuffer       0x400             ./src/labo4_GPIO.o
+UART1Buffer         0x40              ./src/uart.o
+UART2Status         0x4               ./src/uart.o
+UART3Status         0x4               ./src/uart.o
+UART0Buffer         0x40              ./src/uart.o
+UART1Status         0x4               ./src/uart.o
+UART3Buffer         0x40              ./src/uart.o
+UART2Buffer         0x40              ./src/uart.o
+UART0Status         0x4               ./src/uart.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/Peripherals/SysTick/SysTick.o
+ .data          0x00000000        0x0 ./src/Peripherals/SysTick/SysTick.o
+ .bss           0x00000000        0x0 ./src/Peripherals/SysTick/SysTick.o
+ .text.NVIC_SetPriority
+                0x00000000       0x58 ./src/Peripherals/SysTick/SysTick.o
+ .text.SysTick_Config
+                0x00000000       0x64 ./src/Peripherals/SysTick/SysTick.o
+ .text.SysTickInit
+                0x00000000       0x18 ./src/Peripherals/SysTick/SysTick.o
+ .text          0x00000000        0x0 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .data          0x00000000        0x0 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .bss           0x00000000        0x0 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .text.SPI_SetConfigDefault
+                0x00000000       0x48 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .text.SPI_Deinit
+                0x00000000       0x14 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .text          0x00000000        0x0 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .data          0x00000000        0x0 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .bss           0x00000000        0x0 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.__WFI    0x00000000        0xc ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_SetPCLKDiv
+                0x00000000       0xb8 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_DisablePPWR
+                0x00000000       0x34 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_Sleep
+                0x00000000       0x1c ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x28 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_PowerDown
+                0x00000000       0x28 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x28 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .text          0x00000000        0x0 ./src/OLED_MONO/OLED_Driver.o
+ .data          0x00000000        0x0 ./src/OLED_MONO/OLED_Driver.o
+ .bss           0x00000000        0x0 ./src/OLED_MONO/OLED_Driver.o
+ .text          0x00000000        0x0 ./src/OLED_MONO/OLED_HWIF.o
+ .data          0x00000000        0x0 ./src/OLED_MONO/OLED_HWIF.o
+ .bss           0x00000000        0x0 ./src/OLED_MONO/OLED_HWIF.o
+ .text          0x00000000       0x14 ./src/assembleur.o
+ .data          0x00000000        0x0 ./src/assembleur.o
+ .bss           0x00000000        0x0 ./src/assembleur.o
+ .text          0x00000000        0x0 ./src/config_LPC1769.o
+ .data          0x00000000        0x0 ./src/config_LPC1769.o
+ .bss           0x00000000        0x0 ./src/config_LPC1769.o
+ .text.init     0x00000000       0xa8 ./src/config_LPC1769.o
+ .text          0x00000000        0x0 ./src/core_cm3.o
+ .data          0x00000000        0x0 ./src/core_cm3.o
+ .bss           0x00000000        0x0 ./src/core_cm3.o
+ .text.__get_CONTROL
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_CONTROL
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__get_PSP
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_PSP
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__get_MSP
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_MSP
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__get_BASEPRI
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_BASEPRI
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__get_PRIMASK
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_PRIMASK
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__get_FAULTMASK
+                0x00000000       0x20 ./src/core_cm3.o
+ .text.__set_FAULTMASK
+                0x00000000       0x18 ./src/core_cm3.o
+ .text.__REV    0x00000000       0x24 ./src/core_cm3.o
+ .text.__REV16  0x00000000       0x24 ./src/core_cm3.o
+ .text.__REVSH  0x00000000       0x24 ./src/core_cm3.o
+ .text.__RBIT   0x00000000       0x24 ./src/core_cm3.o
+ .text.__LDREXB
+                0x00000000       0x24 ./src/core_cm3.o
+ .text.__LDREXH
+                0x00000000       0x24 ./src/core_cm3.o
+ .text.__LDREXW
+                0x00000000       0x24 ./src/core_cm3.o
+ .text.__STREXB
+                0x00000000       0x2c ./src/core_cm3.o
+ .text.__STREXH
+                0x00000000       0x2c ./src/core_cm3.o
+ .text.__STREXW
+                0x00000000       0x28 ./src/core_cm3.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .text          0x00000000        0x0 ./src/labo4_GPIO.o
+ .data          0x00000000        0x0 ./src/labo4_GPIO.o
+ .bss           0x00000000        0x0 ./src/labo4_GPIO.o
+ .text          0x00000000        0x0 ./src/system_LPC17xx.o
+ .data          0x00000000        0x0 ./src/system_LPC17xx.o
+ .bss           0x00000000        0x0 ./src/system_LPC17xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x214 ./src/system_LPC17xx.o
+ .text.SystemInit
+                0x00000000      0x25c ./src/system_LPC17xx.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 ./src/uart.o
+ .text.UARTInit
+                0x00000000      0x4dc ./src/uart.o
+ .text.UARTSend
+                0x00000000      0x19c ./src/uart.o
+ .text.UARTSendByte
+                0x00000000       0xf8 ./src/uart.o
+ .text.UARTSendString
+                0x00000000       0x34 ./src/uart.o
+ .text.UARTSendStringln
+                0x00000000       0x28 ./src/uart.o
+ .text.UARTSendNumber
+                0x00000000       0x34 ./src/uart.o
+ .text.UARTSendNumberln
+                0x00000000       0x28 ./src/uart.o
+ .text.UARTSendCRLF
+                0x00000000       0x2c ./src/uart.o
+ .text.UARTTXReady
+                0x00000000       0x6c ./src/uart.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .text.uitoa    0x00000000       0x40 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .text.itoa     0x00000000       0x60 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .rodata.digits
+                0x00000000       0x11 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x26 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Peripherals/SysTick/SysTick.o
+LOAD ./src/Peripherals/SPI/LPC17xx_SPI.o
+LOAD ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+LOAD ./src/OLED_MONO/OLED_Driver.o
+LOAD ./src/OLED_MONO/OLED_HWIF.o
+LOAD ./src/assembleur.o
+LOAD ./src/config_LPC1769.o
+LOAD ./src/core_cm3.o
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/labo4_GPIO.o
+LOAD ./src/system_LPC17xx.o
+LOAD ./src/uart.o
+LOAD C:\Users\TEMP.HEPIANET\Desktop\LPC1769\malib\Debug\libmalib.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x932c
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x932c LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x40c SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x932c LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x1000040c ADDR (.bss)
+                0x000000e8        0x4 LONG 0x524 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4       0x74 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                NMI_Handler
+                0x000000f6                HardFault_Handler
+                0x000000f8                MemManage_Handler
+                0x000000fa                BusFault_Handler
+                0x000000fc                UsageFault_Handler
+                0x000000fe                SVC_Handler
+                0x00000100                DebugMon_Handler
+                0x00000102                PendSV_Handler
+                0x00000106                data_init
+                0x00000118                bss_init
+                0x00000128                ResetISR
+                0x00000164                EINT3_IRQHandler
+                0x00000164                CANActivity_IRQHandler
+                0x00000164                TIMER3_IRQHandler
+                0x00000164                EINT2_IRQHandler
+                0x00000164                I2C1_IRQHandler
+                0x00000164                IntDefaultHandler
+                0x00000164                PLL0_IRQHandler
+                0x00000164                CAN_IRQHandler
+                0x00000164                PWM1_IRQHandler
+                0x00000164                SSP0_IRQHandler
+                0x00000164                I2S_IRQHandler
+                0x00000164                I2C2_IRQHandler
+                0x00000164                RTC_IRQHandler
+                0x00000164                TIMER0_IRQHandler
+                0x00000164                SPI_IRQHandler
+                0x00000164                USBActivity_IRQHandler
+                0x00000164                EINT1_IRQHandler
+                0x00000164                TIMER1_IRQHandler
+                0x00000164                ADC_IRQHandler
+                0x00000164                SSP1_IRQHandler
+                0x00000164                USB_IRQHandler
+                0x00000164                BOD_IRQHandler
+                0x00000164                I2C0_IRQHandler
+                0x00000164                WDT_IRQHandler
+                0x00000164                RIT_IRQHandler
+                0x00000164                QEI_IRQHandler
+                0x00000164                EINT0_IRQHandler
+                0x00000164                PLL1_IRQHandler
+                0x00000164                DMA_IRQHandler
+                0x00000164                TIMER2_IRQHandler
+                0x00000164                MCPWM_IRQHandler
+                0x00000164                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000168      0x194 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.SysTick_Handler
+                0x00000300       0x24 ./src/Peripherals/SysTick/SysTick.o
+                0x00000300                SysTick_Handler
+ .text.MsDelay  0x00000324       0x34 ./src/Peripherals/SysTick/SysTick.o
+                0x00000324                MsDelay
+ .text.SPI_Init
+                0x00000358      0x3e4 ./src/Peripherals/SPI/LPC17xx_SPI.o
+                0x00000358                SPI_Init
+ .text.SPI_SendByte
+                0x0000073c       0x68 ./src/Peripherals/SPI/LPC17xx_SPI.o
+                0x0000073c                SPI_SendByte
+ .text.SPI_WaitWhileBusy
+                0x000007a4       0x4c ./src/Peripherals/SPI/LPC17xx_SPI.o
+                0x000007a4                SPI_WaitWhileBusy
+ .text.CLKPWR_GetPCLKDiv
+                0x000007f0       0x4c ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+                0x000007f0                CLKPWR_GetPCLKDiv
+ .text.CLKPWR_GetPCLK
+                0x0000083c       0x7c ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+                0x0000083c                CLKPWR_GetPCLK
+ .text.CLKPWR_EnablePPWR
+                0x000008b8       0x30 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+                0x000008b8                CLKPWR_EnablePPWR
+ .text.SendCMD  0x000008e8       0x20 ./src/OLED_MONO/OLED_Driver.o
+                0x000008e8                SendCMD
+ .text.SendData
+                0x00000908       0x20 ./src/OLED_MONO/OLED_Driver.o
+                0x00000908                SendData
+ .text.InitOLED
+                0x00000928       0xf4 ./src/OLED_MONO/OLED_Driver.o
+                0x00000928                InitOLED
+ .text.SetPageAddress
+                0x00000a1c       0x20 ./src/OLED_MONO/OLED_Driver.o
+                0x00000a1c                SetPageAddress
+ .text.SetColumnAddress
+                0x00000a3c       0x34 ./src/OLED_MONO/OLED_Driver.o
+                0x00000a3c                SetColumnAddress
+ .text.DisplayImage
+                0x00000a70       0x18 ./src/OLED_MONO/OLED_Driver.o
+                0x00000a70                DisplayImage
+ .text.DrawTextToBuffer
+                0x00000a88       0x50 ./src/OLED_MONO/OLED_Driver.o
+                0x00000a88                DrawTextToBuffer
+ .text.WriteBufferToDisplay
+                0x00000ad8       0x60 ./src/OLED_MONO/OLED_Driver.o
+                0x00000ad8                WriteBufferToDisplay
+ .text.DrawChar
+                0x00000b38       0xf0 ./src/OLED_MONO/OLED_Driver.o
+                0x00000b38                DrawChar
+ .text.SetPixel
+                0x00000c28       0x90 ./src/OLED_MONO/OLED_Driver.o
+                0x00000c28                SetPixel
+ .text.OLED_InitIF
+                0x00000cb8       0x90 ./src/OLED_MONO/OLED_HWIF.o
+                0x00000cb8                OLED_InitIF
+ .text.OLED_MsDelay
+                0x00000d48       0x18 ./src/OLED_MONO/OLED_HWIF.o
+                0x00000d48                OLED_MsDelay
+ .text.OLED_SendByte
+                0x00000d60       0x20 ./src/OLED_MONO/OLED_HWIF.o
+                0x00000d60                OLED_SendByte
+ .text.OLED_ResetAssert
+                0x00000d80       0x18 ./src/OLED_MONO/OLED_HWIF.o
+                0x00000d80                OLED_ResetAssert
+ .text.OLED_ResetDeassert
+                0x00000d98       0x18 ./src/OLED_MONO/OLED_HWIF.o
+                0x00000d98                OLED_ResetDeassert
+ .text.OLED_SetCommand
+                0x00000db0       0x1c ./src/OLED_MONO/OLED_HWIF.o
+                0x00000db0                OLED_SetCommand
+ .text.OLED_SetData
+                0x00000dcc       0x1c ./src/OLED_MONO/OLED_HWIF.o
+                0x00000dcc                OLED_SetData
+ .text.NVIC_SetPriority
+                0x00000de8       0x58 ./src/labo4_GPIO.o
+ .text.SysTick_Config
+                0x00000e40       0x64 ./src/labo4_GPIO.o
+ .text.main     0x00000ea4       0x54 ./src/labo4_GPIO.o
+                0x00000ea4                main
+ .text.SplashScreen
+                0x00000ef8       0xc0 ./src/labo4_GPIO.o
+                0x00000ef8                SplashScreen
+ .text.TextDemo
+                0x00000fb8       0xd4 ./src/labo4_GPIO.o
+                0x00000fb8                TextDemo
+ .text.ImageDemo
+                0x0000108c       0x5c ./src/labo4_GPIO.o
+                0x0000108c                ImageDemo
+ .text.AnimationDemo
+                0x000010e8       0x8c ./src/labo4_GPIO.o
+                0x000010e8                AnimationDemo
+ .text.UART0_IRQHandler
+                0x00001174      0x17c ./src/uart.o
+                0x00001174                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x000012f0      0x17c ./src/uart.o
+                0x000012f0                UART1_IRQHandler
+ .text.UART2_IRQHandler
+                0x0000146c      0x17c ./src/uart.o
+                0x0000146c                UART2_IRQHandler
+ .text.UART3_IRQHandler
+                0x000015e8      0x17c ./src/uart.o
+                0x000015e8                UART3_IRQHandler
+ .text.memset   0x00001764        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00001764                memset
+ .text.__weak_main
+                0x00001768        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00001768                __weak_main
+                0x00001768                __main
+ .text.__aeabi_memset_lowlevel
+                0x0000176c       0x24 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x0000176c                __aeabi_lowlevel_memset
+ *(.rodata .rodata.*)
+ .rodata.FONT_5x7
+                0x00001790      0x300 ./src/OLED_MONO/OLED_Driver.o
+                0x00001790                FONT_5x7
+ .rodata.BR_LOGO_ANIM
+                0x00001a90     0x7800 ./src/labo4_GPIO.o
+                0x00001a90                BR_LOGO_ANIM
+ .rodata        0x00009290       0x9c ./src/labo4_GPIO.o
+                0x0000932c                . = ALIGN (0x4)
+
+.glue_7         0x0000932c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0000932c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000932c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000932c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000932c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000932c                __exidx_end = .
+                0x0000932c                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x0000932c
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000      0x40c load address 0x0000932c
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.Contrast_level
+                0x10000000        0x1 ./src/OLED_MONO/OLED_Driver.o
+                0x10000000                Contrast_level
+ *fill*         0x10000001        0x3 00
+ .data.BR_LOGO_LCD
+                0x10000004      0x400 ./src/labo4_GPIO.o
+                0x10000004                BR_LOGO_LCD
+ .data.SystemCoreClock
+                0x10000404        0x4 ./src/system_LPC17xx.o
+                0x10000404                SystemCoreClock
+ .data.UART0TxEmpty
+                0x10000408        0x1 ./src/uart.o
+                0x10000408                UART0TxEmpty
+ .data.UART1TxEmpty
+                0x10000409        0x1 ./src/uart.o
+                0x10000409                UART1TxEmpty
+ .data.UART2TxEmpty
+                0x1000040a        0x1 ./src/uart.o
+                0x1000040a                UART2TxEmpty
+ .data.UART3TxEmpty
+                0x1000040b        0x1 ./src/uart.o
+                0x1000040b                UART3TxEmpty
+                0x1000040c                . = ALIGN (0x4)
+                0x1000040c                _edata = .
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x1000040c      0x524
+                0x1000040c                _bss = .
+ *(.bss*)
+ .bss.msTicks   0x1000040c        0x4 ./src/Peripherals/SysTick/SysTick.o
+                0x1000040c                msTicks
+ .bss.UART0Count
+                0x10000410        0x4 ./src/uart.o
+                0x10000410                UART0Count
+ .bss.UART1Count
+                0x10000414        0x4 ./src/uart.o
+                0x10000414                UART1Count
+ .bss.UART2Count
+                0x10000418        0x4 ./src/uart.o
+                0x10000418                UART2Count
+ .bss.UART3Count
+                0x1000041c        0x4 ./src/uart.o
+                0x1000041c                UART3Count
+ *(COMMON)
+ COMMON         0x10000420      0x400 ./src/labo4_GPIO.o
+                0x10000420                DisplayBuffer
+ COMMON         0x10000820      0x110 ./src/uart.o
+                0x10000820                UART1Buffer
+                0x10000860                UART2Status
+                0x10000864                UART3Status
+                0x10000868                UART0Buffer
+                0x100008a8                UART1Status
+                0x100008ac                UART3Buffer
+                0x100008ec                UART2Buffer
+                0x1000092c                UART0Status
+                0x10000930                . = ALIGN (0x4)
+                0x10000930                _ebss = .
+                0x10000930                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000930        0x0
+                0x10000930                _noinit = .
+ *(.noinit*)
+                0x10000930                . = ALIGN (0x4)
+                0x10000930                _end_noinit = .
+                0x10000930                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(labo4_GPIO.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x41c7
+ .debug_info    0x00000000      0x5c0 ./src/Peripherals/SysTick/SysTick.o
+ .debug_info    0x000005c0      0x4e7 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_info    0x00000aa7      0x602 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_info    0x000010a9      0x34e ./src/OLED_MONO/OLED_Driver.o
+ .debug_info    0x000013f7      0x53f ./src/OLED_MONO/OLED_HWIF.o
+ .debug_info    0x00001936       0x74 ./src/assembleur.o
+ .debug_info    0x000019aa       0x6d ./src/config_LPC1769.o
+ .debug_info    0x00001a17      0x558 ./src/core_cm3.o
+ .debug_info    0x00001f6f      0x29e ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x0000220d       0x48 ./src/crp.o
+ .debug_info    0x00002255      0x998 ./src/labo4_GPIO.o
+ .debug_info    0x00002bed      0x508 ./src/system_LPC17xx.o
+ .debug_info    0x000030f5     0x10d2 ./src/uart.o
+
+.debug_abbrev   0x00000000      0xc77
+ .debug_abbrev  0x00000000      0x16a ./src/Peripherals/SysTick/SysTick.o
+ .debug_abbrev  0x0000016a      0x127 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_abbrev  0x00000291      0x118 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_abbrev  0x000003a9       0xe7 ./src/OLED_MONO/OLED_Driver.o
+ .debug_abbrev  0x00000490      0x116 ./src/OLED_MONO/OLED_HWIF.o
+ .debug_abbrev  0x000005a6       0x14 ./src/assembleur.o
+ .debug_abbrev  0x000005ba       0x38 ./src/config_LPC1769.o
+ .debug_abbrev  0x000005f2       0xa9 ./src/core_cm3.o
+ .debug_abbrev  0x0000069b      0x120 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000007bb       0x39 ./src/crp.o
+ .debug_abbrev  0x000007f4      0x1b4 ./src/labo4_GPIO.o
+ .debug_abbrev  0x000009a8       0xf0 ./src/system_LPC17xx.o
+ .debug_abbrev  0x00000a98      0x1df ./src/uart.o
+
+.debug_loc      0x00000000     0x126a
+ .debug_loc     0x00000000      0x10c ./src/Peripherals/SysTick/SysTick.o
+ .debug_loc     0x0000010c      0x118 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_loc     0x00000224      0x1f4 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_loc     0x00000418      0x224 ./src/OLED_MONO/OLED_Driver.o
+ .debug_loc     0x0000063c      0x158 ./src/OLED_MONO/OLED_HWIF.o
+ .debug_loc     0x00000794       0x2c ./src/config_LPC1769.o
+ .debug_loc     0x000007c0      0x4d0 ./src/core_cm3.o
+ .debug_loc     0x00000c90      0x102 ./src/cr_startup_lpc175x_6x.o
+ .debug_loc     0x00000d92      0x164 ./src/labo4_GPIO.o
+ .debug_loc     0x00000ef6       0x64 ./src/system_LPC17xx.o
+ .debug_loc     0x00000f5a      0x310 ./src/uart.o
+
+.debug_aranges  0x00000000      0x428
+ .debug_aranges
+                0x00000000       0x40 ./src/Peripherals/SysTick/SysTick.o
+ .debug_aranges
+                0x00000040       0x40 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_aranges
+                0x00000080       0x68 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_aranges
+                0x000000e8       0x68 ./src/OLED_MONO/OLED_Driver.o
+ .debug_aranges
+                0x00000150       0x50 ./src/OLED_MONO/OLED_HWIF.o
+ .debug_aranges
+                0x000001a0       0x20 ./src/assembleur.o
+ .debug_aranges
+                0x000001c0       0x20 ./src/config_LPC1769.o
+ .debug_aranges
+                0x000001e0       0xc8 ./src/core_cm3.o
+ .debug_aranges
+                0x000002a8       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000328       0x50 ./src/labo4_GPIO.o
+ .debug_aranges
+                0x00000378       0x28 ./src/system_LPC17xx.o
+ .debug_aranges
+                0x000003a0       0x88 ./src/uart.o
+
+.debug_ranges   0x00000000      0x358
+ .debug_ranges  0x00000000       0x30 ./src/Peripherals/SysTick/SysTick.o
+ .debug_ranges  0x00000030       0x30 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_ranges  0x00000060       0x58 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_ranges  0x000000b8       0x58 ./src/OLED_MONO/OLED_Driver.o
+ .debug_ranges  0x00000110       0x40 ./src/OLED_MONO/OLED_HWIF.o
+ .debug_ranges  0x00000150       0x10 ./src/config_LPC1769.o
+ .debug_ranges  0x00000160       0xb8 ./src/core_cm3.o
+ .debug_ranges  0x00000218       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000288       0x40 ./src/labo4_GPIO.o
+ .debug_ranges  0x000002c8       0x18 ./src/system_LPC17xx.o
+ .debug_ranges  0x000002e0       0x78 ./src/uart.o
+
+.debug_line     0x00000000     0x2a5f
+ .debug_line    0x00000000      0x3de ./src/Peripherals/SysTick/SysTick.o
+ .debug_line    0x000003de      0x47e ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_line    0x0000085c      0x459 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_line    0x00000cb5      0x477 ./src/OLED_MONO/OLED_Driver.o
+ .debug_line    0x0000112c      0x44b ./src/OLED_MONO/OLED_HWIF.o
+ .debug_line    0x00001577       0x47 ./src/assembleur.o
+ .debug_line    0x000015be       0x63 ./src/config_LPC1769.o
+ .debug_line    0x00001621      0x4a9 ./src/core_cm3.o
+ .debug_line    0x00001aca       0xad ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x00001b77       0xad ./src/crp.o
+ .debug_line    0x00001c24      0x4a1 ./src/labo4_GPIO.o
+ .debug_line    0x000020c5      0x3c5 ./src/system_LPC17xx.o
+ .debug_line    0x0000248a      0x5d5 ./src/uart.o
+
+.debug_macinfo  0x00000000    0x353c8
+ .debug_macinfo
+                0x00000000     0x53fa ./src/Peripherals/SysTick/SysTick.o
+ .debug_macinfo
+                0x000053fa     0x61d2 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_macinfo
+                0x0000b5cc     0x5d31 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_macinfo
+                0x000112fd     0x3f3e ./src/OLED_MONO/OLED_Driver.o
+ .debug_macinfo
+                0x0001523b     0x544f ./src/OLED_MONO/OLED_HWIF.o
+ .debug_macinfo
+                0x0001a68a     0x2806 ./src/config_LPC1769.o
+ .debug_macinfo
+                0x0001ce90     0x3ce3 ./src/core_cm3.o
+ .debug_macinfo
+                0x00020b73     0x2305 ./src/cr_startup_lpc175x_6x.o
+ .debug_macinfo
+                0x00022e78     0x2386 ./src/crp.o
+ .debug_macinfo
+                0x000251fe     0x5514 ./src/labo4_GPIO.o
+ .debug_macinfo
+                0x0002a712     0x56da ./src/system_LPC17xx.o
+ .debug_macinfo
+                0x0002fdec     0x55dc ./src/uart.o
+
+.debug_str      0x00000000     0x11e2
+ .debug_str     0x00000000      0x437 ./src/Peripherals/SysTick/SysTick.o
+                                0x473 (size before relaxing)
+ .debug_str     0x00000437      0x2cd ./src/Peripherals/SPI/LPC17xx_SPI.o
+                                0x3ed (size before relaxing)
+ .debug_str     0x00000704      0x209 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+                                0x39c (size before relaxing)
+ .debug_str     0x0000090d      0x107 ./src/OLED_MONO/OLED_Driver.o
+                                0x217 (size before relaxing)
+ .debug_str     0x00000a14      0x1c2 ./src/OLED_MONO/OLED_HWIF.o
+                                0x3ec (size before relaxing)
+ .debug_str     0x00000bd6       0x18 ./src/config_LPC1769.o
+                                 0xf0 (size before relaxing)
+ .debug_str     0x00000bee      0x14b ./src/core_cm3.o
+                                0x26f (size before relaxing)
+ .debug_str     0x00000d39      0x16a ./src/cr_startup_lpc175x_6x.o
+                                0x20e (size before relaxing)
+ .debug_str     0x00000ea3       0x16 ./src/crp.o
+                                 0xa4 (size before relaxing)
+ .debug_str     0x00000eb9       0x7a ./src/labo4_GPIO.o
+                                0x5ce (size before relaxing)
+ .debug_str     0x00000f33       0x5b ./src/system_LPC17xx.o
+                                0x30e (size before relaxing)
+ .debug_str     0x00000f8e      0x254 ./src/uart.o
+                                0x806 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/Peripherals/SysTick/SysTick.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .comment       0x00000000       0x71 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .comment       0x00000000       0x71 ./src/OLED_MONO/OLED_Driver.o
+ .comment       0x00000000       0x71 ./src/OLED_MONO/OLED_HWIF.o
+ .comment       0x00000000       0x71 ./src/config_LPC1769.o
+ .comment       0x00000000       0x71 ./src/core_cm3.o
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc175x_6x.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/labo4_GPIO.o
+ .comment       0x00000000       0x71 ./src/system_LPC17xx.o
+ .comment       0x00000000       0x71 ./src/uart.o
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/Peripherals/SysTick/SysTick.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/OLED_MONO/OLED_Driver.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/OLED_MONO/OLED_HWIF.o
+ .ARM.attributes
+                0x000000ff       0x21 ./src/assembleur.o
+ .ARM.attributes
+                0x00000120       0x33 ./src/config_LPC1769.o
+ .ARM.attributes
+                0x00000153       0x33 ./src/core_cm3.o
+ .ARM.attributes
+                0x00000186       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x000001b9       0x33 ./src/crp.o
+ .ARM.attributes
+                0x000001ec       0x33 ./src/labo4_GPIO.o
+ .ARM.attributes
+                0x0000021f       0x33 ./src/system_LPC17xx.o
+ .ARM.attributes
+                0x00000252       0x33 ./src/uart.o
+ .ARM.attributes
+                0x00000285       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x000002b8       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000002eb       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(itoa.o)
+ .ARM.attributes
+                0x0000031e       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xb30
+ .debug_frame   0x00000000       0xa0 ./src/Peripherals/SysTick/SysTick.o
+ .debug_frame   0x000000a0       0xa0 ./src/Peripherals/SPI/LPC17xx_SPI.o
+ .debug_frame   0x00000140      0x128 ./src/Peripherals/PCLKPWR/LPC17xx_PCLKPWR.o
+ .debug_frame   0x00000268      0x148 ./src/OLED_MONO/OLED_Driver.o
+ .debug_frame   0x000003b0       0xd8 ./src/OLED_MONO/OLED_HWIF.o
+ .debug_frame   0x00000488       0x28 ./src/config_LPC1769.o
+ .debug_frame   0x000004b0      0x2b8 ./src/core_cm3.o
+ .debug_frame   0x00000768       0xf4 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x0000085c       0xe0 ./src/labo4_GPIO.o
+ .debug_frame   0x0000093c       0x44 ./src/system_LPC17xx.o
+ .debug_frame   0x00000980      0x1b0 ./src/uart.o
